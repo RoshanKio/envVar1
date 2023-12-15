@@ -14,6 +14,7 @@ public class EnvironmentVariableTest {
 
 	static List<Student> studentList = new ArrayList<Student>();
 
+	//
 	public static void main(String... args) {
 		try {
 			Class.forName(System.getenv("sqlDriverclass"));
