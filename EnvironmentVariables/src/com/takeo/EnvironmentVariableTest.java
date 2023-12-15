@@ -10,11 +10,12 @@ import java.time.Year;
 import java.util.ArrayList;
 import java.util.List;
 
+//Main class
 public class EnvironmentVariableTest {
 
 	static List<Student> studentList = new ArrayList<Student>();
 
-	//
+	//Main method
 	public static void main(String... args) {
 		try {
 			Class.forName(System.getenv("sqlDriverclass"));
